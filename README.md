@@ -18,10 +18,13 @@ information can be refreshing.
 
 ## Major Software Libraries, Languages, APIs, Development Tools:
 
-Language: Python 3
-Process Music and Prepare Data for Training: Librosa, OpenCV
-Build and Train Model: Tensorflow, Keras
-GUI: Python Tkinter, Matplotlib, Pyinstaller
+**Language:**  Python 3
+
+**Process Music and Prepare Data for Training:**  Librosa, OpenCV
+
+**Build and Train Model:** Tensorflow, Keras
+
+**GUI:**   Python Tkinter, Matplotlib, Pyinstaller
 
 
 
