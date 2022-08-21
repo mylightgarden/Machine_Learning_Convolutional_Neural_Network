@@ -42,6 +42,7 @@ scan on it. It has no safety threat to your computer.
 
 
 ------------------Method 2: --------------
+
 Open fold 'Tkinter App', then open the GUI.py. You can also open this folder in VSCode and run GUI.py.
 
 This approach may require you to install certain environments, such as tensorflow, if you don't already have them setup.
