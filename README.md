@@ -1,5 +1,6 @@
 # Machine Learning: Music Genre Classification
 
+
 ## Introduction:
 
 This repo includes step by step source code files for a music genre classification machine-learning project, 
@@ -7,11 +8,12 @@ from processing music clips, building a CNN model, predicting based on the save 
 
 The final application allows users to enter a song clip, and receive a formatted top-n list of genres sorted by
 confidence value in descending order. The prediction is made by the pre-trained
-Convolutional Neural Network (CNN) model implemented in TensorFlow. 
+**Convolutional Neural Network (CNN)** model implemented in TensorFlow. 
 
 By using this program, end users can obtain detailed music genre information, which
 may or may not be different from the original genre that the music labeled. Such
 information can be refreshing. 
+
 
 
 ## Major Software Libraries, Languages, APIs, Development Tools:
@@ -20,6 +22,7 @@ Language: Python 3
 Process Music and Prepare Data for Training: Librosa, OpenCV
 Build and Train Model: Tensorflow, Keras
 GUI: Python Tkinter, Matplotlib, Pyinstaller
+
 
 
 ## How to Run the App:
