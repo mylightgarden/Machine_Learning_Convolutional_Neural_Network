@@ -1,3 +1,5 @@
+# Author: Sophie Zhao
+
 ''' 
 Reference : https://www.youtube.com/c/ValerioVelardoTheSoundofAI
 https://towardsdatascience.com/music-genre-classification-with-python-c714d032f0d8?gi=ac21c958a822
