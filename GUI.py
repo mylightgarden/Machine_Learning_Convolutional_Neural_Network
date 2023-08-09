@@ -1,3 +1,5 @@
+# Author: Sophie Zhao
+
 # ---------- Graphical User Interface ----------
 from cProfile import label
 from multiprocessing.connection import wait
