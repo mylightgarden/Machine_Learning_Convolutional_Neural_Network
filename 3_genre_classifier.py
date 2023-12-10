@@ -26,8 +26,7 @@ def load_data(dataset_path):
     
     return inputs, targets
 
-
-if __name__ == "__main__":
+def run():
     # Load data
     inputs, targets = load_data(DATASET_PATH)
     
@@ -59,3 +58,7 @@ if __name__ == "__main__":
               epochs=50,
               batch_size=32
               )
+
+
+if __name__ == "__main__":
+    run()
