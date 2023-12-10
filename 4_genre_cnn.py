@@ -1,9 +1,9 @@
 # Author: Sophie Zhao
 
 ''' 
-Reference : https://www.youtube.com/c/ValerioVelardoTheSoundofAI
 https://towardsdatascience.com/music-genre-classification-with-python-c714d032f0d8?gi=ac21c958a822
 https://www.analyticsvidhya.com/blog/2021/06/music-genres-classification-using-deep-learning-techniques/
+Reference : https://www.youtube.com/c/ValerioVelardoTheSoundofAI
 '''
 
 import json
@@ -128,7 +128,7 @@ def predict(X,y):
     predicted_index = np.argmax(prediction, axis=1) # will get the label number e.g. : [4]
     print("The expect index is {}, the prediction index is {}".format(y, predicted_index));
 
-if __name__ == "__main__":
+def run():
     # Load data
     # inputs, targets = load_data(DATASET_PATH)
     
@@ -167,6 +167,9 @@ if __name__ == "__main__":
     
     # Save the entire model as a SavedModel.
     cnn_model.save('saved_model/my_model')
+    
+if __name__ == "__main__":
+    run()
     
 
 
